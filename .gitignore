@@ -1,3 +1,9 @@
+# local dev
 /.env
 
 .terraform/
+*.tfstate.backup
+
+# wireguard artifacts
+/wg_key
+/wg_key.pub
